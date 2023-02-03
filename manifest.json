@@ -1,0 +1,18 @@
+{
+  "id": "io.github.crearts-community.scripts",
+  "name": "CreArts | Scripts",
+  "description": "Scripts, is a Framework to give each language a proper Font.",
+  "author": {
+    "name": "Corellan",
+    "discordID": "288362986991648778",
+    "github": "CorellanStoma"
+  },
+  "version": "1.0.0",
+  "updater": {
+    "type": "github",
+    "id": "CreArts-Community/Scripts"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "src/theme.css"
+}
