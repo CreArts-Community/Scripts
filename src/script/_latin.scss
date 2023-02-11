@@ -1,0 +1,113 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Script                   ║ Latin (Quicksand)                                                                       ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Basic Latin                 ║ U+0020-007F
+// Latin-1 Supplement          ║ U+00A0-00FF
+// Latin Extended-A            ║ U+0100-017F
+// Latin Extended-B            ║ U+18F,U+192,U+19D,U+1A0,U+1A1,U+1AF,U+1B0,U+1C4-1D4,U+1E6,U+1E7,U+1EA,U+1EB,U+1F2,U+1FA-21B,U+22A-22D,U+230-233,U+237
+// Latin Extended Additional   ║ U+1E08,U+1E09,U+1E0C-1E0F,U+1E12-1E17,U+1E1C,U+1E1D,U+1E20,U+1E21,U+1E24,U+1E25,U+1E2A,U+1E2B,U+1E2E,U+1E2F,U+1E36,U+1E37,U+1E3A-1E3D,U+1E42-1E53,U+1E5A,U+1E5B,U+1E5E-1E69,U+1E6C-1E71,U+1E78-1E7B,U+1E80-1E85,U+1E8E,U+1E8F,U+1E92,U+1E93,U+1E97,U+1E9E,U+1EA0-1EF9
+
+// General Punctuation         ║ U+2013,U+2014,U+2018-201A,U+201C-201E,U+2020,U+2022,U+2026,U+2033,U+2039,U+203A,U+2044
+// ASCII Punctuation           ║ U+21-2C,U+2E-7E
+// Latin-1 Punctuation         ║ U+A1-AC,U+AE-B4,U+B6-FF
+
+// 100 (Thin)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-300.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  unicode-range: U+20-7F,U+A0-17F,U+18F,U+192,U+19D,U+1A0,U+1A1,U+1AF,U+1B0,U+1C4-1D4,U+1E6,U+1E7,U+1EA,U+1EB,U+1F2,U+1FA-21B,U+22A-22D,U+230-233,U+237,U+1E08,U+1E09,U+1E0C-1E0F,U+1E12-1E17,U+1E1C,U+1E1D,U+1E20,U+1E21,U+1E24,U+1E25,U+1E2A,U+1E2B,U+1E2E,U+1E2F,U+1E36,U+1E37,U+1E3A-1E3D,U+1E42-1E53,U+1E5A,U+1E5B,U+1E5E-1E69,U+1E6C-1E71,U+1E78-1E7B,U+1E80-1E85,U+1E8E,U+1E8F,U+1E92,U+1E93,U+1E97,U+1E9E,U+1EA0-1EF9,U+2013,U+2014,U+2018-201A,U+201C-201E,U+2020,U+2022,U+2026,U+2033,U+2039,U+203A,U+2044;
+}
+
+// 200 (Extra Light)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-300.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  unicode-range: U+20-7F,U+A0-17F,U+18F,U+192,U+19D,U+1A0,U+1A1,U+1AF,U+1B0,U+1C4-1D4,U+1E6,U+1E7,U+1EA,U+1EB,U+1F2,U+1FA-21B,U+22A-22D,U+230-233,U+237,U+1E08,U+1E09,U+1E0C-1E0F,U+1E12-1E17,U+1E1C,U+1E1D,U+1E20,U+1E21,U+1E24,U+1E25,U+1E2A,U+1E2B,U+1E2E,U+1E2F,U+1E36,U+1E37,U+1E3A-1E3D,U+1E42-1E53,U+1E5A,U+1E5B,U+1E5E-1E69,U+1E6C-1E71,U+1E78-1E7B,U+1E80-1E85,U+1E8E,U+1E8F,U+1E92,U+1E93,U+1E97,U+1E9E,U+1EA0-1EF9,U+2013,U+2014,U+2018-201A,U+201C-201E,U+2020,U+2022,U+2026,U+2033,U+2039,U+203A,U+2044;
+}
+
+
+// 300 (Light)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-300.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  unicode-range: U+20-7F,U+A0-17F,U+18F,U+192,U+19D,U+1A0,U+1A1,U+1AF,U+1B0,U+1C4-1D4,U+1E6,U+1E7,U+1EA,U+1EB,U+1F2,U+1FA-21B,U+22A-22D,U+230-233,U+237,U+1E08,U+1E09,U+1E0C-1E0F,U+1E12-1E17,U+1E1C,U+1E1D,U+1E20,U+1E21,U+1E24,U+1E25,U+1E2A,U+1E2B,U+1E2E,U+1E2F,U+1E36,U+1E37,U+1E3A-1E3D,U+1E42-1E53,U+1E5A,U+1E5B,U+1E5E-1E69,U+1E6C-1E71,U+1E78-1E7B,U+1E80-1E85,U+1E8E,U+1E8F,U+1E92,U+1E93,U+1E97,U+1E9E,U+1EA0-1EF9,U+2013,U+2014,U+2018-201A,U+201C-201E,U+2020,U+2022,U+2026,U+2033,U+2039,U+203A,U+2044;
+}
+
+// 400 (Regular)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-400.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+20-7F,U+A0-17F,U+18F,U+192,U+19D,U+1A0,U+1A1,U+1AF,U+1B0,U+1C4-1D4,U+1E6,U+1E7,U+1EA,U+1EB,U+1F2,U+1FA-21B,U+22A-22D,U+230-233,U+237,U+1E08,U+1E09,U+1E0C-1E0F,U+1E12-1E17,U+1E1C,U+1E1D,U+1E20,U+1E21,U+1E24,U+1E25,U+1E2A,U+1E2B,U+1E2E,U+1E2F,U+1E36,U+1E37,U+1E3A-1E3D,U+1E42-1E53,U+1E5A,U+1E5B,U+1E5E-1E69,U+1E6C-1E71,U+1E78-1E7B,U+1E80-1E85,U+1E8E,U+1E8F,U+1E92,U+1E93,U+1E97,U+1E9E,U+1EA0-1EF9,U+2013,U+2014,U+2018-201A,U+201C-201E,U+2020,U+2022,U+2026,U+2033,U+2039,U+203A,U+2044;
+}
+
+// 500 (Medium)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-500.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+20-7F,U+A0-17F,U+18F,U+192,U+19D,U+1A0,U+1A1,U+1AF,U+1B0,U+1C4-1D4,U+1E6,U+1E7,U+1EA,U+1EB,U+1F2,U+1FA-21B,U+22A-22D,U+230-233,U+237,U+1E08,U+1E09,U+1E0C-1E0F,U+1E12-1E17,U+1E1C,U+1E1D,U+1E20,U+1E21,U+1E24,U+1E25,U+1E2A,U+1E2B,U+1E2E,U+1E2F,U+1E36,U+1E37,U+1E3A-1E3D,U+1E42-1E53,U+1E5A,U+1E5B,U+1E5E-1E69,U+1E6C-1E71,U+1E78-1E7B,U+1E80-1E85,U+1E8E,U+1E8F,U+1E92,U+1E93,U+1E97,U+1E9E,U+1EA0-1EF9,U+2013,U+2014,U+2018-201A,U+201C-201E,U+2020,U+2022,U+2026,U+2033,U+2039,U+203A,U+2044;
+}
+
+// 600 (Semi-Bold)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-600.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+20-7F,U+A0-17F,U+18F,U+192,U+19D,U+1A0,U+1A1,U+1AF,U+1B0,U+1C4-1D4,U+1E6,U+1E7,U+1EA,U+1EB,U+1F2,U+1FA-21B,U+22A-22D,U+230-233,U+237,U+1E08,U+1E09,U+1E0C-1E0F,U+1E12-1E17,U+1E1C,U+1E1D,U+1E20,U+1E21,U+1E24,U+1E25,U+1E2A,U+1E2B,U+1E2E,U+1E2F,U+1E36,U+1E37,U+1E3A-1E3D,U+1E42-1E53,U+1E5A,U+1E5B,U+1E5E-1E69,U+1E6C-1E71,U+1E78-1E7B,U+1E80-1E85,U+1E8E,U+1E8F,U+1E92,U+1E93,U+1E97,U+1E9E,U+1EA0-1EF9,U+2013,U+2014,U+2018-201A,U+201C-201E,U+2020,U+2022,U+2026,U+2033,U+2039,U+203A,U+2044;
+}
+
+// 700 (Bold)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-700.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+20-7F,U+A0-17F,U+18F,U+192,U+19D,U+1A0,U+1A1,U+1AF,U+1B0,U+1C4-1D4,U+1E6,U+1E7,U+1EA,U+1EB,U+1F2,U+1FA-21B,U+22A-22D,U+230-233,U+237,U+1E08,U+1E09,U+1E0C-1E0F,U+1E12-1E17,U+1E1C,U+1E1D,U+1E20,U+1E21,U+1E24,U+1E25,U+1E2A,U+1E2B,U+1E2E,U+1E2F,U+1E36,U+1E37,U+1E3A-1E3D,U+1E42-1E53,U+1E5A,U+1E5B,U+1E5E-1E69,U+1E6C-1E71,U+1E78-1E7B,U+1E80-1E85,U+1E8E,U+1E8F,U+1E92,U+1E93,U+1E97,U+1E9E,U+1EA0-1EF9,U+2013,U+2014,U+2018-201A,U+201C-201E,U+2020,U+2022,U+2026,U+2033,U+2039,U+203A,U+2044;
+}
+
+// 800
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-700.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  unicode-range: U+20-7F,U+A0-17F,U+18F,U+192,U+19D,U+1A0,U+1A1,U+1AF,U+1B0,U+1C4-1D4,U+1E6,U+1E7,U+1EA,U+1EB,U+1F2,U+1FA-21B,U+22A-22D,U+230-233,U+237,U+1E08,U+1E09,U+1E0C-1E0F,U+1E12-1E17,U+1E1C,U+1E1D,U+1E20,U+1E21,U+1E24,U+1E25,U+1E2A,U+1E2B,U+1E2E,U+1E2F,U+1E36,U+1E37,U+1E3A-1E3D,U+1E42-1E53,U+1E5A,U+1E5B,U+1E5E-1E69,U+1E6C-1E71,U+1E78-1E7B,U+1E80-1E85,U+1E8E,U+1E8F,U+1E92,U+1E93,U+1E97,U+1E9E,U+1EA0-1EF9,U+2013,U+2014,U+2018-201A,U+201C-201E,U+2020,U+2022,U+2026,U+2033,U+2039,U+203A,U+2044;
+}
+
+// 900
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-700.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  unicode-range: U+20-7F,U+A0-17F,U+18F,U+192,U+19D,U+1A0,U+1A1,U+1AF,U+1B0,U+1C4-1D4,U+1E6,U+1E7,U+1EA,U+1EB,U+1F2,U+1FA-21B,U+22A-22D,U+230-233,U+237,U+1E08,U+1E09,U+1E0C-1E0F,U+1E12-1E17,U+1E1C,U+1E1D,U+1E20,U+1E21,U+1E24,U+1E25,U+1E2A,U+1E2B,U+1E2E,U+1E2F,U+1E36,U+1E37,U+1E3A-1E3D,U+1E42-1E53,U+1E5A,U+1E5B,U+1E5E-1E69,U+1E6C-1E71,U+1E78-1E7B,U+1E80-1E85,U+1E8E,U+1E8F,U+1E92,U+1E93,U+1E97,U+1E9E,U+1EA0-1EF9,U+2013,U+2014,U+2018-201A,U+201C-201E,U+2020,U+2022,U+2026,U+2033,U+2039,U+203A,U+2044;
+}

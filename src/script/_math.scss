@@ -1,0 +1,20 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Script                   ║ Math (Noto Sans Math)                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Arrows                             ║ U+A,U+2190-21AE,U+21B0-21E5,U+21F1,U+21F2,U+21F4-21FF
+// Supplemental Arrows-A              ║ U+27F0-27FF
+// Supplemental Arrows-B              ║ U+20,U+2900-297F
+// Miscellaneous Symbols and Arrows   ║ U+20,U+C3,U+CA,U+CB,U+2196,U+2B0E-2B11,U+2B30-2B4C,U+2BFE
+// Mathematical Alphanumeric Symbols  ║ U+20,U+1D400-1D454,U+1D456-1D49C,U+1D49E,U+1D49F,U+1D4A2,U+1D4A5,U+1D4A6,U+1D4A9-1D4AC,U+1D4AE-1D4B9,U+1D4BB,U+1D4BD-1D4C3,U+1D4C5-1D4FE,U+1D500-1D505,U+1D507-1D50A,U+1D50D-1D514,U+1D516-1D51C,U+1D51E-1D539,U+1D53B-1D53E,U+1D540-1D544,U+1D546,U+1D54A-1D550,U+1D552-1D5FE,U+1D600-1D6A5,U+1D6A8-1D6FE,U+1D700-1D7CB,U+1D7CE-1D7FE
+
+// 400 (Regular)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-sans-math/noto-sans-math-400.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+A,U+2190-21AE,U+21B0-21E5,U+21F1,U+21F2,U+21F4-21FF,U+27F0-27FF,U+20,U+1D400-1D454,U+1D456-1D49C,U+1D49E,U+1D49F,U+1D4A2,U+1D4A5,U+1D4A6,U+1D4A9-1D4AC,U+1D4AE-1D4B9,U+1D4BB,U+1D4BD-1D4C3,U+1D4C5-1D4FE,U+1D500-1D505,U+1D507-1D50A,U+1D50D-1D514,U+1D516-1D51C,U+1D51E-1D539,U+1D53B-1D53E,U+1D540-1D544,U+1D546,U+1D54A-1D550,U+1D552-1D5FE,U+1D600-1D6A5,U+1D6A8-1D6FE,U+1D700-1D7CB,U+1D7CE-1D7FE;
+}

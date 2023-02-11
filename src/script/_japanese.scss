@@ -1,0 +1,111 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Script                   ║ Japanese (Noto Sans JP)                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Hiragana                                       ║ U+3041-3041
+// Katakana (Full Width)                          ║ U+30A0-30FF
+// Kanji                                          ║ U+3400-4DB5,U+4E00-9FCB,U+F900-FA6A
+// Kanji Radicals                                 ║ U+2E80-2FD5
+// Katakana and Punctuation (Half Width)          ║ U+FF5F-FF9F
+// Japanese Symbols and Punctuation               ║ U+3000-303F
+// Miscellaneous Japanese Symbols and Characters  ║ U+31F0-31F0,U+3220-3243,U+3280-337F
+// Alphanumeric and Punctuation (Full Width)      ║ U+FF01-FF5E
+
+// 100 (Light)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-sans-jp/noto-sans-jp-100.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  unicode-range: U+3041-3041,U+30A0-30FF,U+3400-4DB5,U+4E00-9FCB,U+F900-FA6A,U+2E80-2FD5,U+FF5F-FF9F,U+3000-303F,U+31F0-31F0,U+3220-3243,U+3280-337F,U+FF01-FF5E;
+}
+
+// 200 (Light)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-sans-jp/noto-sans-jp-200.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  unicode-range: U+3041-3041,U+30A0-30FF,U+3400-4DB5,U+4E00-9FCB,U+F900-FA6A,U+2E80-2FD5,U+FF5F-FF9F,U+3000-303F,U+31F0-31F0,U+3220-3243,U+3280-337F,U+FF01-FF5E;
+}
+
+// 300 (Light)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-sans-jp/noto-sans-jp-300.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  unicode-range: U+3041-3041,U+30A0-30FF,U+3400-4DB5,U+4E00-9FCB,U+F900-FA6A,U+2E80-2FD5,U+FF5F-FF9F,U+3000-303F,U+31F0-31F0,U+3220-3243,U+3280-337F,U+FF01-FF5E;
+}
+
+// 400 (Regular)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-sans-jp/noto-sans-jp-400.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+3041-3041,U+30A0-30FF,U+3400-4DB5,U+4E00-9FCB,U+F900-FA6A,U+2E80-2FD5,U+FF5F-FF9F,U+3000-303F,U+31F0-31F0,U+3220-3243,U+3280-337F,U+FF01-FF5E;
+}
+
+// 500 (Medium)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-sans-jp/noto-sans-jp-500.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+3041-3041,U+30A0-30FF,U+3400-4DB5,U+4E00-9FCB,U+F900-FA6A,U+2E80-2FD5,U+FF5F-FF9F,U+3000-303F,U+31F0-31F0,U+3220-3243,U+3280-337F,U+FF01-FF5E;
+}
+
+// 600 (Semi-Bold)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-sans-jp/noto-sans-jp-600.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+3041-3041,U+30A0-30FF,U+3400-4DB5,U+4E00-9FCB,U+F900-FA6A,U+2E80-2FD5,U+FF5F-FF9F,U+3000-303F,U+31F0-31F0,U+3220-3243,U+3280-337F,U+FF01-FF5E;
+}
+
+// 700 (Bold)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-sans-jp/noto-sans-jp-700.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+3041-3041,U+30A0-30FF,U+3400-4DB5,U+4E00-9FCB,U+F900-FA6A,U+2E80-2FD5,U+FF5F-FF9F,U+3000-303F,U+31F0-31F0,U+3220-3243,U+3280-337F,U+FF01-FF5E;
+}
+
+// 800 (Bold)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-sans-jp/noto-sans-jp-800.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  unicode-range: U+3041-3041,U+30A0-30FF,U+3400-4DB5,U+4E00-9FCB,U+F900-FA6A,U+2E80-2FD5,U+FF5F-FF9F,U+3000-303F,U+31F0-31F0,U+3220-3243,U+3280-337F,U+FF01-FF5E;
+}
+
+// 900 (Bold)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-sans-jp/noto-sans-jp-900.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  unicode-range: U+3041-3041,U+30A0-30FF,U+3400-4DB5,U+4E00-9FCB,U+F900-FA6A,U+2E80-2FD5,U+FF5F-FF9F,U+3000-303F,U+31F0-31F0,U+3220-3243,U+3280-337F,U+FF01-FF5E;
+}

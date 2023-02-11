@@ -1,3 +1,18 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Fonts                    ║ Music (Noto Sans JP)                                                                 ║
+// ║ Script                   ║ Music (Noto Music)                                                                      ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Musical Symbols                 ║ U+1D100-1D1FF
+// Ancient Greek Musical Notation  ║ U+1D200-1D24F
+// Byzantine Musical Symbols       ║ U+1D000-1D0FF
+
+// 400 (Regular)
+@font-face {
+  font-family: "CreArts";
+  src: url(https://crearts-community.github.io/Assets/fonts/noto-music/noto-music-400.woff2) format("woff2");
+  font-stretch:	normal;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+1D100-1D1FF, U+1D200-1D24F, U+1D000-1D0FF;
+}
